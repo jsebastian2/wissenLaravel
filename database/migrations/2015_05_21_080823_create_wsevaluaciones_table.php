@@ -35,7 +35,7 @@ class CreateWsevaluacionesTable extends Migration {
 
 
         // Pregunta Evaluacion
-		Schema::create('ws_evaluaciones', function(Blueprint $table) {
+		Schema::create('ws_pregunta_evaluaciones', function(Blueprint $table) {
             $table->increments('id');
             $table->string('evaluacion_id')->unsigned()->nullable();
             $table->integer('tipo_preg')->unsigned()->nullable(); 
