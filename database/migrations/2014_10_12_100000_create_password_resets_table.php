@@ -31,3 +31,7 @@ class CreatePasswordResetsTable extends Migration {
 	}
 
 }
+
+
+//holaaAAQUE HACE 
+/**JAJJAJAJAJA
