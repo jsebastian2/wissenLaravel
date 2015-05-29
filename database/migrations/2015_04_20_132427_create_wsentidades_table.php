@@ -133,8 +133,13 @@ class CreateWsentidadesTable extends Migration {
 	public function down()
 	{
 		Schema::drop('ws_entidades');
-		Schema::drop('ws_entidades');
-		Schema::drop('ws_entidades');
+		Schema::drop('ws_disciplinas');
+		Schema::drop('ws_disciplinas_traduc');
+		Schema::drop('ws_categorias');
+		Schema::drop('ws_categorias_traduc');
+		Schema::drop('ws_niveles');
+		Schema::drop('ws_niveles_traduc');
+
 	}
 
 }
