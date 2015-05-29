@@ -82,7 +82,7 @@ class createWseventosTable extends Migration {
 		Schema::drop('eventos');
 		Schema::drop('ws_nivel_participante');
 		Schema::drop('ws_inscripciones');
-		Schema::drop('ws_ws_user_event');
+		Schema::drop('ws_user_event');
 
 	}
 

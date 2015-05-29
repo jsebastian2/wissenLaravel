@@ -21,6 +21,16 @@ Route::controller('usuarios', 'UsuariosController');
 Route::controller('evaluaciones', 'EvaluacionesController');
 Route::controller('examenes', 'ExamenesController');
 Route::controller('eventos', 'EventosController');
+Route::controller('nivelparticipante', 'NivelparticipanteController');
+Route::controller('inscripciones', 'InscripcionesController');
+Route::controller('userevent', 'User_eventController');
+Route::controller('password', 'PasswordController');
+Route::controller('categorias', 'CategoriasController');
+Route::controller('categoriastraduc', 'Categorias_traducController');
+Route::controller('disciplinastraduc', 'Disciplinas_traducController');
+Route::controller('niveles', 'NivelesController');
+Route::controller('nivelestraduc', 'Niveles_traducController');
+Route::controller('preguntaevaluacion', 'Pregunta_evaluacionController');
 
 
 
